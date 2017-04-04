@@ -69,11 +69,15 @@
                             </p>
                         }
 
-                        <p><span class="infoLabel">Height:</span> @outputHeightOrNA(
-                            String.valueOf(patient.getHeightFeet),
-                            String.valueOf(patient.getHeightInches),
-                            viewModelMedical.getSettings.isMetric
-                        )</p>
+                        <p><span class="infoLabel">Height:</span>
+                            @if(patient.getHeightFeet == 0 && patient.getHeightInches == 0) {
+                                @outputHeightOrNA("null","null",viewModelMedical.getSettings.isMetric)
+                            } else {
+                                @outputHeightOrNA(
+                                String.valueOf(patient.getHeightFeet),
+                                String.valueOf(patient.getHeightInches),
+                                viewModelMedical.getSettings.isMetric)
+                            }</p>
                         <p><span class="infoLabel">Weight:</span> @outputWeightOrNA(String.valueOf(patient.getWeight), viewModelMedical.getSettings.isMetric)</p>
                     </div>
                 }
