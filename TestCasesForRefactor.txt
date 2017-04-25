@@ -1,0 +1,55 @@
+Primary Data: Heart Rate
+Secondary Data: None
+Filter Date: 12-25-2016 to 4-24-2017
+Average: 83.39 beats/minute
+Range: 16.00 - 651.00 beats/minute
+Total Patients: 1109
+Total Encounters: 1225
+
+Primary Data: Oxygen Saturation
+Secondary Data: None
+Filter Date: 12-25-2016 to 4-24-2017
+Average: 98.93 percent
+Range: 6.50 - 998.00 percent
+Total Patients: 633
+Total Encounters: 671
+
+Primary Data: Temperature
+Secondary Data: None
+Filter Date: 12-25-2016 to 4-24-2017
+Average: 99.57 Fahrenheit
+Range: 8.20 - 200.90 Fahrenheit
+Total Patients: 960
+Total Encounters: 1084
+
+Primary Data: Age
+Secondary Data: None
+Filter Date: 12-25-2016 to 4-24-2017
+Average: 28.16 years
+Range: 0.00 - 311.00 years
+Total Patients: 1240
+Total Encounters: 1375
+
+Primary Data: Age
+Secondary Data: Gender
+Filter Date: 12-25-2016 to 4-24-2017
+Average: 28.16 years
+Range: 0.00 - 311.00 years
+Total Patients: 1240
+Total Encounters: 1375
+
+Primary Data: Heart Rate
+Secondary Data: Gender
+Filter Date: 4-23-2017 to 4-24-2017
+Average: 83.41 beats/minute
+Range: 16.00 - 651.00 beats/minute
+Total Patients: 1109
+Total Encounters: 1225
+
+Primary Data: Glucose
+Secondary Data: Gender
+Filter Date: 4-23-2017 to 4-24-2017
+Average: 145.91 mg/dl
+Range: 0.00 - 500.00 mg/dl
+Total Patients: 23
+Total Encounters: 23
